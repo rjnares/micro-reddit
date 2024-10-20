@@ -17,5 +17,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_10_19_225911) do
     t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["username"], name: "index_users_on_username", unique: true
   end
 end
