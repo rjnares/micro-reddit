@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   # Association references
   has_many :posts, dependent: :destroy
+  has_many :comments, dependent: :destroy
 
   # Presence validations
   validates :username, presence: true

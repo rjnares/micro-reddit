@@ -1,5 +1,6 @@
 class Post < ApplicationRecord
   # Association references
+  has_many :comments, dependent: :destroy
   belongs_to :user
 
   # Presence validations
