@@ -1,24 +1,15 @@
-# README
+# Micro-Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my implementation of the [Micro-Reddit](https://www.theodinproject.com/lessons/ruby-on-rails-micro-reddit) project assigned in the [Active Record Basics](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails#active-record-basics) section of the [Ruby on Rails Course](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails) which is part of the [Full Stack Ruby on Rails](https://www.theodinproject.com/paths/full-stack-ruby-on-rails) curriculum from the [The Odin Project](https://www.theodinproject.com).
 
-Things you may want to cover:
+## Project Description
 
-* Ruby version
+The goal of this project was to apply basic Active Record concepts and become familiar with data modeling practices that can be used to create the database backend of real web applications.
 
-* System dependencies
+## Skills Applied
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Creating Active Record Models
+* Creating, updating, and running Active Record Migrations
+* Creating server-side validations via Active Record Validations
+* Creating database-level validations via primary key, foreign key, null, and uniqueness constraints
+* Creating Active Record Associations between models
